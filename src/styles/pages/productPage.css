@@ -1,0 +1,33 @@
+.productPage {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    height: 70vh;
+    margin: auto auto;
+    padding: 15px;
+}
+
+.productPage__image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPage__image img {
+    max-width: 300px;
+}
+
+
+.productPage__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+}
+.productPage__header {
+    width: fit-content;
+    color: black;
+    border-bottom: 3px solid black;
+}

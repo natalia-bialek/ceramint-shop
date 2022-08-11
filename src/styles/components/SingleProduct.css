@@ -1,0 +1,28 @@
+.product {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAF4EF;
+    border-radius: 0px 0px 0px 50px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 8px 10px 0px rgb(202, 202, 207);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product__image img {
+     max-width: 200px;
+}
+
+.product:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 24px 0px rgb(170, 170, 175);
+}
+.product__header {
+
+    font-family: 'Cabinet Grotesk', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}

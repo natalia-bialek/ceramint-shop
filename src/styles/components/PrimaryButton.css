@@ -1,0 +1,9 @@
+.button--primary {
+    width: fit-content;
+    max-width: 250px;
+    padding: 15px;
+    min-height: 50px;
+    border: none;
+    color: white;
+    background-color: #3EB489;
+}

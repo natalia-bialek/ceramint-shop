@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    color: #4B4B4B;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+}
+
+.text--bold {
+    font-weight: 700;
+}
+img.notAvaliable {
+    filter: grayscale(100%);
+}
