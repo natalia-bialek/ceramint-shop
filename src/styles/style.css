@@ -6,6 +6,10 @@ body {
     font-family: 'Satoshi', sans-serif;
 }
 
+h1 {
+    margin: 0;
+}
+
 .text--uppercase {
     text-transform: uppercase;
 }
@@ -13,6 +17,7 @@ body {
 .text--bold {
     font-weight: 700;
 }
+
 img.notAvaliable {
     filter: grayscale(100%);
 }

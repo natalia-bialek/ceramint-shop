@@ -2,6 +2,10 @@ import * as React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../styles/components/TabsComponent.css";
 
+const tabPanelHeight = {
+  height: "150px",
+};
+
 export default function TabsComponent(props) {
   return (
     <Tabs>
@@ -9,13 +13,29 @@ export default function TabsComponent(props) {
         <Tab>Opis</Tab>
         <Tab>Specyfikacja</Tab>
       </TabList>
-      <TabPanel>{props.description && <p>{props.description}</p>}</TabPanel>
-      <TabPanel>
-        <p>Sztuk w magazynie: {props.stock}</p>
-        <p>Wymiary: </p>
-        <p>Tworzywo: </p>
-        {props.capacity !== 0 && <p>Pojemność: {props.capacity}ml</p>}
-      </TabPanel>
+      <div className="react-tabs__tabContainer">
+        <TabPanel style={tabPanelHeight}>
+          {props.description && <p>{props.description}</p>}
+        </TabPanel>
+        <TabPanel style={tabPanelHeight}>
+          <table>
+            <tr>
+              <td>Sztuk w magazynie:</td>
+              <td>{props.stock}</td>
+            </tr>
+            <tr>
+              <td>Wymiary</td>
+              <td>aposdjaopsdj</td>
+            </tr>
+            {props.capacity !== 0 && (
+              <tr>
+                <td>Pojemność:</td>
+                <td>{props.capacity}ml</td>
+              </tr>
+            )}
+          </table>
+        </TabPanel>
+      </div>
     </Tabs>
   );
 }

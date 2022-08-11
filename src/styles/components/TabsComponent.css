@@ -1,7 +1,7 @@
 .react-tabs__tab-list {
   margin: 0;
   padding: 0;
-}
+  }
   
   .react-tabs__tab {
     display: inline-block;
@@ -16,7 +16,7 @@
   
   .react-tabs__tab--selected {
     background: #fff;
-    border-bottom: 3px solid #3EB489;
+    border-bottom: 2px solid #3EB489;
     color: black;
   }
   
@@ -31,7 +31,6 @@
   
   .react-tabs__tab-panel {
     display: none;
-    border: 3px solid blue;
     margin: 10px 0;
     max-width: 600px;
   }
@@ -40,3 +39,18 @@
     display: block;
   }
   
+
+  table {
+    margin-top: 1em;
+  }
+
+  tr td:nth-child(2) {
+    padding-left: 30px;
+  }
+
+  td {
+    width: 50%;
+    max-width: 150px;
+    padding-bottom: 10px;
+  }
+

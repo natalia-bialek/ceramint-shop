@@ -2,18 +2,25 @@
     height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #FAF4EF;
     border-radius: 0px 0px 0px 50px;
     padding: 30px;
-    text-decoration: none;
-    color: black;
     box-shadow: 0px 8px 10px 0px rgb(202, 202, 207);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+.product__content {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .product__image img {
      max-width: 200px;
+     max-height: 200px;
 }
 
 .product:hover{
@@ -26,3 +33,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.product__button {
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.product__button > svg {
+    height: 100%;
+}
+

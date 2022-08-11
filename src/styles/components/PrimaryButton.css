@@ -4,6 +4,18 @@
     padding: 15px;
     min-height: 50px;
     border: none;
-    color: white;
     background-color: #3EB489;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.button--primary > * {
+    font-size: 1.2em;
 }
