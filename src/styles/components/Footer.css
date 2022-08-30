@@ -1,0 +1,48 @@
+.footer {
+    background-color: #202020;
+    color: #f4f4f4;
+}
+
+.footer a {
+    color: #33eebb;
+}
+
+.footer .text--bold {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e4e4e4;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto auto;
+    padding: 20px 10px;
+}
+
+.footer__section > div {
+    display: flex;  
+    margin: auto auto;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.footer__p, .footer__link{
+    margin: 5px;
+    padding: 0;
+}
+
+.footer__section--small p{
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin: auto auto;
+    border-top: 1px solid #f4f4f4;
+}

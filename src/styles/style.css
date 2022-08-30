@@ -3,7 +3,8 @@ body {
     padding: 0;
     background-color: #E5E5E5;
     color: #4B4B4B;
-    font-family: 'Satoshi', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -20,4 +21,12 @@ h1 {
 
 img.notAvaliable {
     filter: grayscale(100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 1.2em;
 }

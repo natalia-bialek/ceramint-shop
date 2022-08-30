@@ -1,4 +1,4 @@
-.button--primary {
+/* .abutton--primary {
     width: fit-content;
     max-width: 250px;
     padding: 15px;
@@ -13,9 +13,40 @@
     justify-content: center;
     align-items: center;
     color: white;
+} */
+
+.button--primary {
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+    background-color: #202020;
+    color: #f4f4f4;
+    outline: none;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.075rem;
+    border: none;
+    font-weight: 600;
+    transition: background-color 200ms ease-in-out;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
 }
 
 
-.button--primary > * {
-    font-size: 1.2em;
+.button--primary:hover {
+    background-color: #3EB489;
+}
+
+.button--primary:focus-visible {
+    color: #202020;
+    border: 2.5px solid blue;
+    transition: background-color 0ms;
+    -webkit-transition: background-color 0ms;
+    -moz-transition: background-color 0ms;
+    -ms-transition: background-color 0ms;
+    -o-transition: background-color 0ms;
 }

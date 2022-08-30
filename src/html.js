@@ -15,6 +15,10 @@ export default function HTML(props) {
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,100,700,400,300,200,900&f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@100;400;500&display=swap"
+          rel="stylesheet"
+        />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

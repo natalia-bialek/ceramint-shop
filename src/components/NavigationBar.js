@@ -1,24 +1,29 @@
 import * as React from "react";
 import "../styles/components/NavigationBar.css";
+import SecondaryButton from "./SecondaryButton";
+import logo from "../images/logo.png";
+import { TbShoppingCart } from "react-icons/tb";
 
-const MENU_DATA = [
-  { name: "Kubki", path: "/produkty/kubki" },
-  { name: "Miski", path: "/produkty/miski" },
-  { name: "Talerze", path: "/produkty/talerze" },
-];
-
-export default function NavigationBar() {
+export default function NavigationBar(props) {
   return (
     <nav className="nav">
-      <div className="nav__logo">LOGO</div>
+      <a className="nav__logo" href="/">
+        <img src={logo} alt="Ceramint Shop Logo" />
+      </a>
+
       <ul className="nav__links">
-        {MENU_DATA.map((item, index) => {
-          return (
-            <li key={item.name + index} className="nav__link">
-              <a href={item.path}>{item.name}</a>
-            </li>
-          );
-        })}
+        <li className="nav__link">
+          <a href="/">Produkty</a>
+        </li>
+        <li className="nav__link">
+          <a href="">Nasza pracownia</a>
+        </li>
+        <li className="nav__link icon">
+          <SecondaryButton>
+            <TbShoppingCart />
+          </SecondaryButton>
+        </li>
+        <li className="nav__link"></li>
       </ul>
     </nav>
   );

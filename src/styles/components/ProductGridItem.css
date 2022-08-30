@@ -1,6 +1,6 @@
-.product {
+.item {
     height: 350px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #FAF4EF;
     border-radius: 0px 0px 0px 50px;
@@ -9,7 +9,11 @@
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.product__content {
+.item.visible {
+    display: flex;
+}
+
+.item__content {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -18,28 +22,40 @@
     height: 100%;
 }
 
-.product__image img {
-     max-width: 200px;
-     max-height: 200px;
+.item__image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.item__image img {
+    position: absolute;
+    width: 100%;
+    max-width: 200px;
 }
 
-.product:hover{
+.item:hover{
     transform: translateY(-10px);
     box-shadow: 0px 20px 24px 0px rgb(170, 170, 175);
 }
-.product__header {
-
+.item__header {
     font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 1.5em;
+}
+
+.item__footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
-.product__button {
-    width: fit-content;
-    align-self: flex-end;
+.item__price {
+    font-size: 1.2em;
 }
 
-.product__button > svg {
-    height: 100%;
+.item__button:focus, .item__button:focus-visible {
+    color: white !important;
+    background-color: grey;
 }
 

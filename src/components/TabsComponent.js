@@ -24,8 +24,8 @@ export default function TabsComponent(props) {
               <td>{props.stock}</td>
             </tr>
             <tr>
-              <td>Wymiary</td>
-              <td>aposdjaopsdj</td>
+              <td>Wymiary:</td>
+              <td>00 x 00 x 00 cm</td>
             </tr>
             {props.capacity !== 0 && (
               <tr>

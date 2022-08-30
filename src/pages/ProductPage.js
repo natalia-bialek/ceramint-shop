@@ -10,7 +10,7 @@ export default function ProductPage(props) {
     props.pageContext;
   return (
     <>
-      <NavigationBar />
+      <NavigationBar navLinks={false} />
       <div className="productPage">
         <div className="productPage__breadcrumbs"></div>
         <div className="productPage__image">
@@ -27,7 +27,7 @@ export default function ProductPage(props) {
             description={description}
             capacity={capacity}
           />
-          <PrimaryButton>
+          <PrimaryButton className="text--uppercase">
             <TbPlus />
             &nbsp;Dodaj do koszyka
           </PrimaryButton>
