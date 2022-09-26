@@ -1,10 +1,10 @@
 import * as React from "react";
-import "../styles/components/ProductGridItem.css";
-import SecondaryButton from "./SecondaryButton";
-import PrimaryButton from "./PrimaryButton";
+import "./ProductsGridItem.css";
+import SecondaryButton from "../SecondaryButton/SecondaryButton";
+import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { TbShoppingCartPlus } from "react-icons/tb";
 
-export default function ProductGridItem(props) {
+export default function ProductsGridItem(props) {
   const { name, price, isAvaliable, slug } = props.product;
   const capacity = props.product.capacity || null;
   const slugURL = capacity ? slug + "-" + capacity + "ml" : slug;

@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../styles/components/footer.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -25,15 +25,23 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <a className="footer__link" href="">
+            <a className="footer__link" href="" title="Skontaktuj się z nami">
               Kontakt odnosnik do kontaktu ze strony szkolki
             </a>
             <br />
-            <a className="footer__link" href="/informacje/polityka-prywatnosci">
+            <a
+              className="footer__link"
+              href="/informacje/regulamin"
+              title="Polityka prywatności"
+            >
               Regulamin
             </a>
             <br />
-            <a className="footer__link" href="/informacje/polityka-prywatnosci">
+            <a
+              className="footer__link"
+              href="/informacje/polityka-prywatnosci"
+              title="Polityka prtwatności"
+            >
               Polityka prywatności
             </a>
           </div>

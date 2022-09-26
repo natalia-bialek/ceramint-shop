@@ -1,8 +1,8 @@
 import * as React from "react";
 import "../styles/pages/productPage.css";
-import NavigationBar from "../components/NavigationBar";
-import PrimaryButton from "../components/PrimaryButton";
-import TabsComponent from "../components/TabsComponent";
+import NavigationBar from "../components/NavigationBar/NavigationBar";
+import PrimaryButton from "../components/PrimaryButton/PrimaryButton";
+import TabsComponent from "../components/TabsComponent/TabsComponent";
 import { TbPlus } from "react-icons/tb";
 
 export default function ProductPage(props) {

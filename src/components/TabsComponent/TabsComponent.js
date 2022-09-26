@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "../styles/components/TabsComponent.css";
+import "./TabsComponent.css";
 
 const tabPanelHeight = {
   height: "150px",

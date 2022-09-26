@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../styles/components/SecondaryButton.css";
+import "./SecondaryButton.css";
 
 export default function SecondaryButton(props) {
   const classes = props.className

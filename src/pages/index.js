@@ -1,9 +1,9 @@
 import { useAllProducts } from "../hooks/useAllProducts";
 import * as React from "react";
-import ProductGrid from "../components/ProductGrid";
-import NavigationBar from "../components/NavigationBar";
-import SecondaryButton from "../components/SecondaryButton";
-import Footer from "../components/Footer";
+import ProductGrid from "../components//ProductsGrid/ProductsGrid";
+import NavigationBar from "../components/NavigationBar/NavigationBar";
+import SecondaryButton from "../components/SecondaryButton/SecondaryButton";
+import Footer from "../components/Footer/Footer";
 import { TbX } from "react-icons/tb";
 import "../styles/style.css";
 import "../styles/pages/index.css";
