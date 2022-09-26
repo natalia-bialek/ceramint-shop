@@ -1,83 +1,57 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+# Ceramint Shop
 
-1.  **Create a Gatsby site.**
+Web application of an online store selling ceramic products, associated with the fictitious ceramic studio Ceramint.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Developed using React, Gatsby and Contentful Headless CMS.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
 
-2.  **Start developing.**
+## Demo
 
-    Navigate into your new site’s directory and start it up.
+https://ceramintshopmaster.gatsbyjs.io/
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
 
-3.  **Open the code and start customizing!**
+## Run Locally
 
-    Your site is now running at http://localhost:8000!
+Clone the project
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```bash
+  git clone https://github.com/natalia-bialek/ceramint-shop
+```
 
-4.  **Learn more**
+Go to the project directory
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+  cd ceramint-shop
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Install dependencies
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+  npm install
+```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Start the server
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+  gatsby develop
+```
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Color Reference
 
-## 🚀 Quick start (Gatsby Cloud)
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Mint | ![#3EB489](https://via.placeholder.com/10/3eb489?text=+) #3EB489 |
+| Turquoise | ![#33EEBB](https://via.placeholder.com/10/33eebb?text=+) #33EEBB |
+| Castleton Green | ![#0E5D40](https://via.placeholder.com/10/0E5D40?text=+) #0E5D40 |
+| Queen Blue | ![#486590](https://via.placeholder.com/10/486590?text=+) #486590 |
+| Maximum Blue Purple | ![#BBAFE0](https://via.placeholder.com/10/BBAFE0?text=+) #BBAFE0 |
+| Cultured | ![#F4F4F4](https://via.placeholder.com/10/f4f4f4?text=+) #F4F4F4 |
+| Platinum | ![#E4E4E4](https://via.placeholder.com/10/e4e4e4?text=+) #E4E4E4 |
+| Outer Space | ![#474747](https://via.placeholder.com/10/474747?text=+) #474747 |
+| Raisin Black | ![#202020](https://via.placeholder.com/10/202020?text=+) #202020 |
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
 
-475px
-600px
-1024px
 
-mint
-#3EB489
-33EEBB JASNIEJSZY
 
-szarny ciemny
-#202020
-
-ciemniejszy
-#474747
-
-jasny bez
-#f4f4f4
-
-blue pastel
-#486590
-
-lavenda
-#BBAFE0
-
-ceimny zielony
-#0E5D40
-
-ciemniejszy fafafa
-#e4e4e4
